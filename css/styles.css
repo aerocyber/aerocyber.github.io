@@ -187,7 +187,7 @@ section {
 .icon {
     cursor: pointer;
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: 10%;
 }
 
 /* Button */
@@ -235,4 +235,48 @@ section {
 
 .btn-container {
     gap: 1rem;
+}
+
+/* image */
+.arrow {
+    font-size: 60px;
+    position: absolute;
+    right: -5rem;
+    bottom: 3rem;
+}
+
+/* About */
+#about {
+    position: relative;
+}
+
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(83, 83, 83) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
 }
