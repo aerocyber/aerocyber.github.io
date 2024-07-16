@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aero's Project Hosting</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Aero: Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home Page</a></li>
-                <li><a href="/about.html">About Me</a></li>
-                <li><a href="/projects.html">My Projects</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Hello, World</h1>
-        <h3>Who am I?</h3>
-        <p>
-            A software developer. A student. A learner. An enthusiast. <i>That</i> is who I am. <br>
-            I try to make the world a better place to live with the wise use of technology. <br>
-            A security enthusiast, open source advocate and an obsessed Linux user.
-        </p>
 
-        <h3>What do I do?</h3>
-        <p>
-            I code, learn, contribute. <br>
-            I have a few projects which I am developing. See <a href="/projects.html">projects page</a>. <br>
-        </p>
-    </main>
-    <footer>
-        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://aerocyber.github.io/">Aero's Project Hosting Website</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/aerocyber">Aero</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-ShareAlike 4.0 International</a></p>
-    </footer>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">@aerocyber</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#desktop-nav">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">@aerocyber</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <i class='bx bx-menu' id="icon-toggler"></i>
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="#desktop-nav" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/aerocyber.png" alt="Aero profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">
+                Hello, I'm
+            </p>
+            <h1 class="title">Aero</h1>
+            <p class="section__text__p2">
+                Developer. Open source enthusiast. Linux user.
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('https://buymeacoffee.com/aerocyber')">Support me on Buy Me a Coffee</button>
+                <button class="btn btn-color-2" onclick="location.href = './#contact'">Contact</button>
+            </div>
+            <div id="socials-container" onclick="location.href='https://github.com/aerocyber'">
+                <i class="ri-github-line icon"></i>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
