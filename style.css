@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(5, 31, 72);
+    background-color: rgb(45, 150, 171);
 }
 
 .container {
@@ -39,11 +39,11 @@ body {
     text-align: center;
     border: none rgb(94, 222, 212);
     margin-top: 1%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: auto;
     border-radius: 5vh;
     padding: 1%;
     margin-bottom: 5vh;
+    width: 25%;
 }
 
 #nav>a {
@@ -100,7 +100,7 @@ footer>a:hover {
 .title>h4 {
     margin-top: 1px;
     font-size: large;
-    color:  rgb(45, 207, 202);
+    color:  rgb(1, 65, 37);
 }
 
 .title > a {
@@ -125,7 +125,8 @@ footer>a:hover {
 
 .card {
     border: 5px solid;
-    border-color: rgb(240, 248, 255);
+    /* border-color: rgb(240, 248, 255); */
+    background-color: rgb(226, 232, 237);
     border-radius: 1.5vh;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -133,7 +134,8 @@ footer>a:hover {
     margin-left: 10px;
     padding: 10px;
     text-align: center;
-    color: rgb(237, 236, 234);
+    /* color: rgb(237, 236, 234); */
+    color: rgb(62, 58, 58);
 }
 
 .exp-header {
@@ -142,7 +144,8 @@ footer>a:hover {
 }
 
 .card>hr {
-    border: 0.25vh solid #fff;
+    /* border: 0.25vh solid #fff; */
+    border: 0.25vh solid #5f5d5d;
     border-radius: 5vh;
     width: 25%;
     margin: auto;
@@ -188,4 +191,8 @@ footer>a:hover {
     border-bottom-style: solid;
     padding-bottom: 0.5vh;
     transition: border 2s ease-out;
+}
+
+.card-icon {
+    color: rgb(62, 58, 58);
 }
