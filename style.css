@@ -24,11 +24,13 @@ body {
 .icon {
     line-height: 1.5em;
     font-size: 1.3em;
+    color: #f0ffff;
 }
 
 .icon-text {
     line-height: 1.5em;
     font-size: 1.2em;
+    color: #f0ffff;
 }
 
 #nav {
@@ -77,6 +79,111 @@ footer>a {
 }
 
 footer>a:hover {
+    border-bottom-width: 0.1vh;
+    border-bottom-style: solid;
+    padding-bottom: 0.5vh;
+    transition: border 2s ease-out;
+}
+
+.title {
+    text-align: center;
+    line-height: 4ex;
+    color: rgb(127, 255, 212);
+}
+
+.title>h1 {
+    margin-bottom: 2vh;
+    font-size: 5em;
+    color: rgb(237, 236, 234);
+}
+
+.title>h4 {
+    margin-top: 1px;
+    font-size: large;
+    color:  rgb(45, 207, 202);
+}
+
+.title > a {
+    color: #f0ffff;
+    text-decoration: none;
+    transition: border 5s ease-in;
+}
+
+.title > a:hover {
+    border-bottom-width: 0.1vh;
+    border-bottom-style: solid;
+    padding-bottom: 0.5vh;
+    transition: border 2s ease-out;
+}
+
+.content {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.card {
+    border: 5px solid;
+    border-color: rgb(240, 248, 255);
+    border-radius: 1.5vh;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(237, 236, 234);
+}
+
+.exp-header {
+    font-size: 3vh;
+    padding-bottom: 1.5vh;
+}
+
+.card>hr {
+    border: 0.25vh solid #fff;
+    border-radius: 5vh;
+    width: 25%;
+    margin: auto;
+}
+
+.card>img {
+    width: 100%;
+    padding: 2%;
+    margin-left: auto;
+}
+
+.projects {
+    padding: 2%;
+}
+
+.item {
+    margin-bottom: 1%;
+    list-style: none;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.item-head {
+    text-align: start;
+}
+
+.item-desc {
+    text-align: center;
+}
+
+.item-link {
+    text-align: end;
+}
+
+.item > .item-link > a {
+    color: #f0ffff;
+    text-decoration: none;
+    transition: border 5s ease-in;
+}
+
+.item > .item-link > a:hover {
     border-bottom-width: 0.1vh;
     border-bottom-style: solid;
     padding-bottom: 0.5vh;
