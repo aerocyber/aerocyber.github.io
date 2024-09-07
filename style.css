@@ -12,12 +12,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(45, 150, 171);
+    background-color: #20322c;
+    color: #c1c9c6;
 }
 
 .container {
     flex: 1;
-    color: rgb(165, 236, 67);
+    color: #d6e8be;
     margin: 3vh;
 }
 
@@ -34,10 +35,10 @@ body {
 }
 
 #nav {
-    background-color: rgb(250, 235, 215);
-    color: rgb(5, 31, 72);
+    background-color: #2f2f36;
+    color: #5eded4;
     text-align: center;
-    border: none rgb(94, 222, 212);
+    border: solid 0.25vh #5eded4;
     margin-top: 1%;
     margin: auto;
     border-radius: 5vh;
@@ -47,7 +48,7 @@ body {
 }
 
 #nav>a {
-    color: rgb(35, 70, 70);
+    color: #5eded4;
     text-decoration: none;
     transition: border 5s ease-in;
 }
@@ -69,11 +70,11 @@ footer {
     text-align: center;
     line-height: 5vh;
     flex-shrink: 0;
-    color: rgb(143, 255, 197);
+    color: #8fffc5;
 }
 
 footer>a {
-    color: aqua;
+    color: #00ffff;
     text-decoration: none;
     transition: border 5s ease-in;
 }
@@ -88,28 +89,28 @@ footer>a:hover {
 .title {
     text-align: center;
     line-height: 4ex;
-    color: rgb(127, 255, 212);
+    color: #7fffd4;
 }
 
 .title>h1 {
     margin-bottom: 2vh;
     font-size: 5em;
-    color: rgb(237, 236, 234);
+    color: #edecea;
 }
 
 .title>h4 {
     margin-top: 1px;
     font-size: large;
-    color:  rgb(1, 65, 37);
+    color: #befff1; 
 }
 
-.title > a {
+.title>a {
     color: #f0ffff;
     text-decoration: none;
     transition: border 5s ease-in;
 }
 
-.title > a:hover {
+.title>a:hover {
     border-bottom-width: 0.1vh;
     border-bottom-style: solid;
     padding-bottom: 0.5vh;
@@ -126,7 +127,7 @@ footer>a:hover {
 .card {
     border: 5px solid;
     /* border-color: rgb(240, 248, 255); */
-    background-color: rgb(226, 232, 237);
+    background-color: #e2e8ed;
     border-radius: 1.5vh;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -135,7 +136,8 @@ footer>a:hover {
     padding: 10px;
     text-align: center;
     /* color: rgb(237, 236, 234); */
-    color: rgb(62, 58, 58);
+    color: #3e3a3a; 
+    border: none;
 }
 
 .exp-header {
@@ -180,13 +182,13 @@ footer>a:hover {
     text-align: end;
 }
 
-.item > .item-link > a {
-    color: #f0ffff;
+.item>.item-link>a {
+    color: #3e3a3a;
     text-decoration: none;
     transition: border 5s ease-in;
 }
 
-.item > .item-link > a:hover {
+.item>.item-link>a:hover {
     border-bottom-width: 0.1vh;
     border-bottom-style: solid;
     padding-bottom: 0.5vh;
@@ -194,5 +196,5 @@ footer>a:hover {
 }
 
 .card-icon {
-    color: rgb(62, 58, 58);
+    color: #3e3a3a;
 }
