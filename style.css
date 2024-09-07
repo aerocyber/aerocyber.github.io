@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 31, 72);
+}
+
+.container {
+    flex: 1;
+    color: rgb(165, 236, 67);
+    margin: 3vh;
+}
+
+.icon {
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+
+.icon-text {
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+#nav {
+    background-color: rgb(250, 235, 215);
+    color: rgb(5, 31, 72);
+    text-align: center;
+    border: none rgb(94, 222, 212);
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5vh;
+    padding: 1%;
+    margin-bottom: 5vh;
+}
+
+#nav>a {
+    color: rgb(35, 70, 70);
+    text-decoration: none;
+    transition: border 5s ease-in;
+}
+
+#nav>a:hover {
+    border-bottom-width: 0.1vh;
+    border-bottom-style: solid;
+    padding-bottom: 0.5vh;
+    transition: border 2s ease-out;
+}
+
+body #nav {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    padding: 3vh;
+    text-align: center;
+    line-height: 5vh;
+    flex-shrink: 0;
+    color: rgb(143, 255, 197);
+}
+
+footer>a {
+    color: aqua;
+    text-decoration: none;
+    transition: border 5s ease-in;
+}
+
+footer>a:hover {
+    border-bottom-width: 0.1vh;
+    border-bottom-style: solid;
+    padding-bottom: 0.5vh;
+    transition: border 2s ease-out;
+}
